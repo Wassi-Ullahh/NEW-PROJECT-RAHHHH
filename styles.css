@@ -1,0 +1,164 @@
+body {
+        background: linear-gradient(to bottom,
+        #2b0a56,
+        #521e8d,
+        #9337d5);
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .organized {
+        color: white;
+        font-family: Barlow Condensed, sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0;
+    }
+        
+    .ahead {
+        color: white;
+        font-family: Barlow Condensed, sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .description {
+        color: #cdbdea;
+        font-size: 13px;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .description-container {
+        max-width: 360px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 18px;
+
+    }
+
+    .glass-wrapper {
+        display: inline-block;
+        padding: 6px;
+        border-radius: 40px;
+        background: linear-gradient(to left, rgba(205, 189, 234, 0.1), rgba(43, 10, 86, 0.3));
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+        transition: 0.15s;
+    }
+
+    .get-button {
+        padding: 14px 18px;
+        background-color: #9337d5;
+        border-radius: 36px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: 0.15s;
+    }
+
+    .glass-wrapper:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    }
+    .get-button:hover {
+        background-color: #983fd7;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        max-width: 960px;
+        margin: 40px auto;
+    }
+
+    .card-1 {
+        background: linear-gradient(to bottom, rgba(121,88,150,0.9),
+        rgba(169,102,215,0.9));
+        height: 100%;
+        width: 100%;
+        border-radius: 24px;
+        text-align: center;
+    }
+
+    .card-2 {
+        background: linear-gradient(to bottom, rgba(121,88,150,0.9),
+        rgba(169,102,215,0.9));
+        height: 100%;
+        width: 100%;
+        border-radius: 24px;
+        text-align: center;
+    }
+
+    .card-3 {
+        background: linear-gradient(to bottom, rgba(121,88,150,0.9),
+        rgba(169,102,215,0.9));
+        height: 100%;
+        width: 100%;
+        border-radius: 24px;
+        text-align: center;
+    }
+
+    .card-wrapper {
+        display: inline-block;
+        border-radius: 46px;
+        padding: 20px;
+        height: 325px;
+        width: 250px;
+        background: linear-gradient(to bottom, rgba(97,54,129,0.6),
+        rgba(162,86,215,0.6));
+        box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.3);
+        margin-top: 75px;
+    }
+
+    .smart {
+        color: rgba(132, 88, 163, 0.9);
+        text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+        1px  1px 0 #fff;
+        font-size: 42px;
+        font-family: Barlow Condensed, sans-serif;
+        font-weight: 500;
+        padding-top: 145px;
+        opacity: 0.2;
+        margin-bottom: 0;
+    }   
+    
+    .Inbox {
+        color: white;
+        font-size: 42px;
+        font-family: Barlow Condensed, sans-serif;
+        font-weight: 500;
+        margin-top: -6px;
+    }
+    
+    .capture {
+        font-size: 14px;
+        padding-bottom: 10px;
+        text-align: center;
+        padding-left: 28px;
+        padding-right: 28px;
+        font-family: Barlow Condensed, sans-serif;
+        color: rgba(220,169,246,255);
+    }
+
+    .hour-glass {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 200px;
+        margin-top: -640px;
+        filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.4));
+        transition: 0.15s;
+    }
+
+    .hour-glass:hover {
+        filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.8));
+    }
